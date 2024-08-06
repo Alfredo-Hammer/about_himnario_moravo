@@ -67,3 +67,19 @@ footer {
   border-top: 1px solid #eeeeee;
   margin-top: 20px;
 }
+
+/* Media Queries */
+@media screen and (max-width: 600px) {
+  .container {
+    padding: 10px;
+  }
+  h1 {
+    font-size: 2rem;
+  }
+  .intro p {
+    font-size: 1.2rem;
+  }
+  ul {
+    font-size: 1.2rem;
+  }
+}
